@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>核心价值 - 华彩新纪元</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <div class="brand">华彩新纪元</div>
+            <nav class="nav" aria-label="主导航">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="core.html" class="nav-link">核心价值</a>
+                <a href="dashboard.html" class="nav-link">动态数据看板</a>
+                <a href="about.html" class="nav-link">关于我们</a>
+                <a href="join.html" class="nav-link">加入我们</a>
+                <a href="support.html" class="nav-link primary">支持我们</a>
+            </nav>
+            <button id="nav-toggle" class="nav-toggle" aria-label="打开导航">☰</button>
+        </div>
+    </header>
+
+    <main class="container main">
+        <section>
+            <h1 class="page-title">核心价值</h1>
+            <p class="muted">在此阐述组织/活动的核心价值：传承、创新、用户体验等。</p>
+
+            <div class="grid" style="margin-top:18px;">
+                <article class="card"><h3>价值一</h3><p class="muted">示例说明文本，便于替换。</p></article>
+                <article class="card"><h3>价值二</h3><p class="muted">示例说明文本，便于替换。</p></article>
+                <article class="card"><h3>价值三</h3><p class="muted">示例说明文本，便于替换。</p></article>
+            </div>
+        </section>
+<form id="subscribeForm">
+  <input type="email" placeholder="输入邮箱订阅" required>
+  <button type="submit">立即订阅</button>
+</form>
+
+<script>
+document.getElementById("subscribeForm").addEventListener("submit", async e => {
+  e.preventDefault();
+  await fetch("https://https://chromaverse_Data.super-block-5474.xiaoxingxing2896.workers.dev/subscribe", {
+    method: "POST"
+  });
+  alert("感谢您的订阅！");
+});
+</script>
+
+
+        <footer class="footer">© 2025 华彩新纪元 • 保留所有权利</footer>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
