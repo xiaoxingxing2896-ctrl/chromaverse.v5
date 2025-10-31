@@ -45,8 +45,9 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.buy-button').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      alert(https://chromaverse.top/payment);
+      alert(暂留);
     });
   });
 });
+
 
