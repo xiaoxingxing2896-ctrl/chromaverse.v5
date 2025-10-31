@@ -131,6 +131,25 @@ login-email{height:100px;line-height:100xp}
 /* Footer */
 .footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center;padding-bottom:40px}
 
+.btn-jump {
+  background: linear-gradient(90deg, #ff9500, #007aff);
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-jump:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+
+
 
 
 
