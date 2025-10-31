@@ -1,8 +1,32 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head><meta charset="UTF-8"><title>登录 - 华彩新纪元</title><link rel="stylesheet" href="assets/css/style2.css"><script defer src="assets/js/auth.js"></script></head>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>登录 - 华彩新纪元</title>
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <script defer src="assets/js/auth.js"></script>
+</head>
+  <body>
 <body>
-<header><h1>登录</h1></header>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <div class="brand">华彩新纪元</div>
+            <nav class="nav" aria-label="主导航">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="core.html" class="nav-link">核心价值</a>
+                <a href="dashboard.html" class="nav-link">动态数据看板</a>
+                <a href="about.html" class="nav-link">关于我们</a>
+                <a href="join.html" class="nav-link">加入我们</a>
+                <a href="support.html" class="nav-link primary">支持我们</a>
+                <a href="support.html" class="nav-link primary">登录订阅</a>
+            </nav>
+            <button id="nav-toggle" class="nav-toggle" aria-label="打开导航">☰</button>
+        </div>
+    </header>
+<main class="container main">
+        <section>
+            <h1 class="page-title">登录订阅</h1>
 <main>
 <form id="login-form">
   <input id="login-email" placeholder="邮箱" required><br>
