@@ -126,9 +126,3 @@ a{color:inherit;text-decoration:none}
   }
 }
 /*login*/
-body { font-family: 'Microsoft Yahei', sans-serif; background: #f6f8fa; margin: 0; }
-header { background: linear-gradient(90deg, #ff6600, #0066cc); color: white; text-align: center; padding: 1em; }
-nav { background: #fff; display: flex; justify-content: center; gap: 1em; border-bottom: 2px solid #eee; padding: 0.5em; }
-nav a { text-decoration: none; color: #0066cc; font-weight: bold; }
-nav a:hover { color: #ff6600; }
-main { padding: 2em; text-align: center; }
