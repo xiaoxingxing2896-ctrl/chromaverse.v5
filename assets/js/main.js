@@ -45,9 +45,10 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.buy-button').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      alert(暂留);
+      alert("暂留");
     });
   });
 });
+
 
 
