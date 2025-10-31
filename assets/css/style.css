@@ -56,6 +56,7 @@ a{color:inherit;text-decoration:none}
 .product-card img{width:100%;height:140px;object-fit:cover;border-radius:10px}
 .product-card h4{margin:10px 0 6px}
 .buy-button, .product-card button{background:var(--blue);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+.buy-button2, .product-card button2{background:var(--blue);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
 .buy-button:hover, .product-card button:hover{background:#005bb5}
 
 /* Footer */
@@ -125,6 +126,7 @@ a{color:inherit;text-decoration:none}
     width: 100%;
   }
 }
+
 
 
 
