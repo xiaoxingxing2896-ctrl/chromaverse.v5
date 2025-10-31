@@ -128,6 +128,9 @@ a{color:inherit;text-decoration:none}
 button[type="submit"]{background:var(--blue);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
 button[type="register"]{background:var(--green);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
 login-email{height:100px;line-height:100xp}
+/* Footer */
+.footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center;padding-bottom:40px}
+
 
 
 
