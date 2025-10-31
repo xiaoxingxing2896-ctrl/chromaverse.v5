@@ -56,10 +56,10 @@ a{color:inherit;text-decoration:none}
 .product-card{background:#fff;border-radius:12px;padding:12px;text-align:center;border:1px solid #f3f3f3;box-shadow:0 10px 24px var(--card-shadow)}
 .product-card img{width:100%;height:140px;object-fit:cover;border-radius:10px}
 .product-card h4{margin:10px 0 6px}
-.buy-button, .product-card button{background:var(--blue);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
-.pay-button, .product-card button{background:var(--green);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
-.buy-button:hover, .product-card button:hover{background:#005bb5}
-.pay-button:hover, .product-card button:hover{background:#07c160}
+.buy-button-blue, .product-card button{background:var(--blue);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+.pay-button-green, .product-card button{background:var(--green);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+.buy-button-blue:hover, .product-card button:hover{background:#005bb5}
+.pay-button-green:hover, .product-card button:hover{background:#07c160}
 
 /* Footer */
 .footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center;padding-bottom:40px}
@@ -128,6 +128,7 @@ a{color:inherit;text-decoration:none}
     width: 100%;
   }
 }
+
 
 
 
