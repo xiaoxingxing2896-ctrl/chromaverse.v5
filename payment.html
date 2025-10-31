@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>收款中心 | 华彩新纪元</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'PingFang SC', sans-serif;
+      background: linear-gradient(135deg, #ff7f50 0%, #007bff 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #fff;
+      background-color: rgba(255,255,255,0.2);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    header a:hover {
+      background-color: rgba(255,255,255,0.4);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+    }
+
+    .qr-container {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .qr-box {
+      background: #fff;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      color: #333;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .qr-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .qr-box img {
+      width: 200px;
+      height: 200px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+
+    .qr-box h2 {
+      margin: 8px 0;
+      font-size: 18px;
+      color: #ff7f50;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      .qr-container {
+        flex-direction: column;
+        gap: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">← 返回主页</a>
+  </header>
+
+  <h1>华彩新纪元 · 收款中心</h1>
+
+  <div class="qr-container">
+    <div class="qr-box">
+      <img src="images/wechat_qr.png" alt="微信收款码">
+      <h2>微信支付</h2>
+      <p>扫一扫上方二维码进行付款</p>
+    </div>
+
+    <div class="qr-box">
+      <img src="images/alipay_qr.png" alt="支付宝收款码">
+      <h2>支付宝支付</h2>
+      <p>扫一扫上方二维码进行付款</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>请选择与您支付方式对应的二维码完成付款</p>
+  </footer>
+</body>
+</html>
