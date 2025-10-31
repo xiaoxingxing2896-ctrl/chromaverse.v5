@@ -45,7 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.buy-button').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      alert('这是预留的购买/支持接口。部署时请替换为真实支付链接或表单。');
+      alert(https://chromaverse.top/payment);
     });
   });
 });
+
